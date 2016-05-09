@@ -16,6 +16,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08CEBEFE1C18DDAB00367492 /* token.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = token.h; sourceTree = "<group>"; };
+		08CEBEFF1C18DDCE00367492 /* STokenize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STokenize.h; sourceTree = "<group>"; };
+		08CEBF001C18DDEB00367492 /* ETokenize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETokenize.h; sourceTree = "<group>"; };
+		08CEBF011C18DE0300367492 /* Shunt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shunt.h; sourceTree = "<group>"; };
+		08CEBF021C18DE1900367492 /* Evaluator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Evaluator.h; sourceTree = "<group>"; };
+		08CEBF031C18DE2D00367492 /* myQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myQueue.h; sourceTree = "<group>"; };
+		08CEBF041C18DE3E00367492 /* myStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myStack.h; sourceTree = "<group>"; };
+		08CEBF051C18DE5700367492 /* ListFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListFunctions.h; sourceTree = "<group>"; };
+		08CEBF061C18DE7100367492 /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		08CEBF081C18DE9800367492 /* tokenset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tokenset.h; sourceTree = "<group>"; };
 		08DF1BFE1C1785D900F4F28E /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08DF1C021C1785D900F4F28E /* Calculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Calculator-Info.plist"; sourceTree = "<group>"; };
 		08DF1C031C1785D900F4F28E /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
@@ -60,6 +70,16 @@
 				08DF1C031C1785D900F4F28E /* ResourcePath.mm */,
 				08DF1C051C1785D900F4F28E /* ResourcePath.hpp */,
 				08DF1C061C1785D900F4F28E /* main.cpp */,
+				08CEBF021C18DE1900367492 /* Evaluator.h */,
+				08CEBF011C18DE0300367492 /* Shunt.h */,
+				08CEBEFF1C18DDCE00367492 /* STokenize.h */,
+				08CEBF001C18DDEB00367492 /* ETokenize.h */,
+				08CEBEFE1C18DDAB00367492 /* token.h */,
+				08CEBF031C18DE2D00367492 /* myQueue.h */,
+				08CEBF041C18DE3E00367492 /* myStack.h */,
+				08CEBF051C18DE5700367492 /* ListFunctions.h */,
+				08CEBF061C18DE7100367492 /* Node.h */,
+				08CEBF081C18DE9800367492 /* tokenset.h */,
 				08DF1C081C1785D900F4F28E /* Resources */,
 				08DF1C011C1785D900F4F28E /* Supporting Files */,
 			);
@@ -311,6 +331,7 @@
 				08DF1C151C1785D900F4F28E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
